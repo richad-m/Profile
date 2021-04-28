@@ -7,6 +7,7 @@
 body {
   color:#575F7D;
   font-family: 'Raleway', sans-serif;
+  /* background-image: url("images/binbin.jpg"); */
 }
 h1 {
   color:#575F7D;
@@ -49,13 +50,15 @@ a:hover {
 }
 
 .card {
+  /* background-image: url("images/binbin.jpg"); */
   margin: 40px auto;
   padding-left: 30px;
   padding-bottom: 50px;
   padding-top: 30px;
   border-radius: 10px;
   text-align: center;
-  box-shadow: 1px 10px 15px rgb(0 0 0 / 10%)
+  box-shadow: 1px 10px 15px rgb(0 0 0 / 10%);
+  background-color: rgb(250, 237, 237);
   /* border-color: rgb(12, 12, 12); */
 }
 
@@ -119,5 +122,4 @@ li {
   .formation:hover {
     color: rgb(116, 114, 114) ;
     background-color: transparent;
-
 }
